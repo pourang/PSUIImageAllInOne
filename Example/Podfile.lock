@@ -1,0 +1,16 @@
+PODS:
+  - PSUIImageAllInOne (0.1.0)
+
+DEPENDENCIES:
+  - PSUIImageAllInOne (from `../`)
+
+EXTERNAL SOURCES:
+  PSUIImageAllInOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSUIImageAllInOne: 52ab8b7f58d4d6732bf61a1c76da34f60e3b7211
+
+PODFILE CHECKSUM: 5182d841c823dda5a87d4b97efb04655d156430c
+
+COCOAPODS: 1.7.5
