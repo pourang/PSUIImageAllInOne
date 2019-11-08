@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PSUIImageAllInOne_Example' do
+  pod 'PSUIImageAllInOne', :path => '../'
+
+  target 'PSUIImageAllInOne_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
