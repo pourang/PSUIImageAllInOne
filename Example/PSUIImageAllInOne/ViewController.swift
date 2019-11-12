@@ -34,6 +34,12 @@ class ViewController: UIViewController {
            self.imgVDemo.image = self.imgVDemo.image?.imageWithColor(color: UIColor.purple)
         }
         
+        let deadlineTime4 = DispatchTime.now() + .seconds(3)
+        DispatchQueue.main.asyncAfter(deadline: deadlineTime4) {
+            self.imgVDemo.animateRight()
+        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

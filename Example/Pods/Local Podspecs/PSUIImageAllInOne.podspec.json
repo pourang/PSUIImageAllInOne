@@ -1,7 +1,7 @@
 {
   "name": "PSUIImageAllInOne",
   "version": "0.1.0",
-  "summary": "A short description of PSUIImageAllInOne.",
+  "summary": "An extension that provides UIImageView edit functions.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pourang/PSUIImageAllInOne",
   "license": {

@@ -37,4 +37,22 @@ extension UIImageView {
         }
     }
     
+    public func animateRight()
+    {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [], animations: {
+            self.center.x = self.frame.width
+        }, completion: { finished in
+            if finished {
+                self.animateLeft()
+            }
+        })
+    }
+    
+    public func animateLeft()
+    {
+        UIView.animate(withDuration: 2.0, delay: 0.0, options: [ .autoreverse, .repeat, .curveEaseInOut, .beginFromCurrentState], animations: {
+            self.frame.origin.x = 0.0
+        }, completion: nil)
+    }
+    
 }
